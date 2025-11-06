@@ -1,25 +1,24 @@
 //? Ways to define string
-var str = "Hello How are you";
-var str2 = "Hello How are you";
-var str3 = "Hello How are you";
-var age = 20;
-var userName = "Anil sidhu";
+// var str: string = "Hello How are you";
+// var str2: string = "Hello How are you";
+// var str3: string = `Hello How are you`;
+// var age: number = 20;
+// var userName: string = "Anil sidhu";
 //? Convert in string data type
-var info = "my name is ".concat(userName, " and age is ").concat(age);
-console.log(info);
-var num = 1;
+// var info: string = `my name is ${userName} and age is ${age}`;
+// console.log(info);
+// var num: number = 1;
 // var data: string = num.toString();
 // var data: string = " " + num;
-var boodData = true;
-// var data: string = boodData.toString();
-var data = "" + boodData;
+// var boolData = true;
+// var data: string = boolData.toString();
+// var data: string = "" + boolData;
 //? Apply boolean values
-var item = true;
+// var item: boolean = true;
 //? Possible boolean values
-var other;
 // other = "hello"
-other = item;
-console.log(other);
-var info1 = "anil siddhu";
+// var other: boolean = item;
+// console.log(other);
+// var info1 = "anil siddhu";
 //? Inference and declaration issues
-var str10 = "hey this is anil";
+// var str10 = "hey this is anil";
