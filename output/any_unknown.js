@@ -2,7 +2,7 @@
 //! Any Data Type
 //? Which allows a variable to hold values of any type.
 //? If you are not sure about data type of variable you can use any.
-// Object.defineProperty(exports, "__esModule", { value: true });
+Object.defineProperty(exports, "__esModule", { value: true });
 //! Any Data Type Use
 //? When migrating JavaScript code to TypeScript.
 //? When dealing with dynamic values from APIs.
@@ -19,5 +19,5 @@ value1 = ["anil"];
 value1 = {};
 value1 = "Anil Siddhu";
 if (typeof value1 == "string") {
-  console.log(value1.toUpperCase());
+    console.log(value1.toUpperCase());
 }
